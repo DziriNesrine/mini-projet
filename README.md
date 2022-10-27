@@ -10,6 +10,7 @@
    * Nous avons accès à des informations sur une partie des passagers (1309 passagers) du Titanic. 
    * Pourquoi certains passagers ont survécu et d'autres sont morts?
    * Commencons l'analyse de données
+  
 ## 📌 Les Prix Nobel  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 ###### <p>Le prix Nobel est peut-être le prix scientifique le plus connu au monde. Sauf pour l’honneur, le prestige, et l’argent substantiel de prix le récipiendaire obtient également une médaille d’or montrant Alfred Nobel (1833 - 1896) qui a établi le prix. Chaque année, il est remis à des scientifiques et à des universitaires dans les catégories de la chimie, de la littérature, de la physique, de la physiologie ou de la médecine, de l’économie et de la paix. </p>
