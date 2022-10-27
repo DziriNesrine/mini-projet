@@ -14,27 +14,27 @@
 
 ##### 🔖 Les colonnes sont:
 
-* PassengerId : Passenger Id
+✔️ PassengerId : Passenger Id
 
-* Survived : True (1) / False (0)
+✔️ Survived : True (1) / False (0)
 
-* Pclass : Passenger ticket class : Class 1, 2 and 3.
+✔️ Pclass : Passenger ticket class : Class 1, 2 and 3.
 
-* Name : Name of the passenger
+✔️ Name : Name of the passenger
 
-* Sex : Sex of the passenger male/female
+✔️ Sex : Sex of the passenger male/female
 
-* Age : Age in years
+✔️ Age : Age in years
 
-* Sibsp :	# of siblings / spouses aboard the Titanic	(il # heki nombre)
+✔️ Sibsp :	# of siblings / spouses aboard the Titanic	(il # heki nombre)
 
-* Parch	: # of parents / children aboard the Titanic	
+✔️ Parch	: # of parents / children aboard the Titanic	
 
-* Ticket :	Ticket number	
+✔️ Ticket :	Ticket number	
 
-* fare :	Passenger fare	
+✔️ fare :	Passenger fare	
 
-* Cabin : Cabin number
+✔️ Cabin : Cabin number
 
 -------
 
