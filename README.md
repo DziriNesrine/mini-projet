@@ -5,16 +5,36 @@
 
 --------
 ## 📌 Contexte
-    
+
 ###### <p>Nous utiliserons l'exemple du jeu de données du Titanic, un énorme paquebot pour l'époque qui fait naufrage en 1912 à la suite d'une collision avec un iceberg, lors de son voyage inaugural de Southampton à New York.</p>
    * Nous avons accès à des informations sur une partie des passagers (1309 passagers) du Titanic. 
    * Pourquoi certains passagers ont survécu et d'autres sont morts?
    * Commencons l'analyse de données
-  
-## 📌 Les Prix Nobel  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-###### <p>Le prix Nobel est peut-être le prix scientifique le plus connu au monde. Sauf pour l’honneur, le prestige, et l’argent substantiel de prix le récipiendaire obtient également une médaille d’or montrant Alfred Nobel (1833 - 1896) qui a établi le prix. Chaque année, il est remis à des scientifiques et à des universitaires dans les catégories de la chimie, de la littérature, de la physique, de la physiologie ou de la médecine, de l’économie et de la paix. </p>
-###### <p>La Fondation Nobel a mis à disposition un ensemble de données de tous les lauréats depuis le début du prix, en 1901, jusqu’en 2016. Chargeons-le et jetons un œil.</p>
+
+
+##### 🔖 Les colonnes sont:
+
+* PassengerId : Passenger Id
+
+* Survived : True (1) / False (0)
+
+* Pclass : Passenger ticket class : Class 1, 2 and 3.
+
+* Name : Name of the passenger
+
+* Sex : Sex of the passenger male/female
+
+* Age : Age in years
+
+* Sibsp :	# of siblings / spouses aboard the Titanic	(il # heki nombre)
+
+* Parch	: # of parents / children aboard the Titanic	
+
+* Ticket :	Ticket number	
+
+* fare :	Passenger fare	
+
+* Cabin : Cabin number
 
 -------
 
