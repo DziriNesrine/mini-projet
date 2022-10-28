@@ -1,5 +1,5 @@
 # TITANIC
-
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DziriNesrine/mini-projet/main?labpath=index_titanic.ipynb)
 ## 📁Presentation de projet
 ![img](./image/titanic.jpg)
 
