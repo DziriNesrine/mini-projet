@@ -1,4 +1,4 @@
-# mini-projet
+# TITANIC
 
 ## 📁Presentation de projet
 ![img](./image/titanic.jpg)
@@ -38,59 +38,40 @@
 
 -------
 
-## 📌 Les étapes du projet
-###### 1. Les prix Nobel
-###### 2. Alors, qui reçoit le prix Nobel ?
-###### 3. Domination des États-Unis
-###### 4. La domination des États-Unis, visualisée
-###### 5. Quel est le sexe d'un lauréat typique du prix Nobel ?
-###### 6. Les premières femmes et hommes à remporter le Prix Nobel.
-###### 7. Répéter les lauréats
-###### 8. Lauréats du prix Nobel par âge
-###### 9. Différences d'âge entre les catégories de prix
-###### 10. Gagnants les plus âgés et les plus jeunes
-###### 11. Nom du plus jeune gagnant !
+
 
 ## 📌 Analyse
-##### 🔖 Nous apprendrons à travailler avec les données en utilisant des bibliothèques libres populaires disponibles en Python : `numby` `matplotlib` et `pandas` 
+##### 🔖 Nous apprendrons à travailler avec les données en utilisant des bibliothèques libres populaires disponibles en Python : `numby` et `pandas` 
 	✔️import pandas as pd
-	✔️import seaborn as sns
 	✔️import numpy as np
 
 ##### Lecture des données du prix Nobel
-######  📄 nobel = pd.read_csv("./Data/nobel.csv")
-
-
-|    |   year | category   | prize                                          | motivation                                                                                                                                                                                                                                         | prize_share   |   laureate_id | laureate_type   | full_name                    | birth_date   | birth_city        | birth_country    | sex   | organization_name   | organization_city   | organization_country   | death_date   | death_city   | death_country   |
-|---:|-------:|:-----------|:-----------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------|--------------:|:----------------|:-----------------------------|:-------------|:------------------|:-----------------|:------|:--------------------|:--------------------|:-----------------------|:-------------|:-------------|:----------------|
-|  0 |   1901 | Chemistry  | The Nobel Prize in Chemistry 1901              | "in recognition of the extraordinary services he has rendered by the discovery of the laws of chemical dynamics and osmotic pressure in solutions"                                                                                                 | 1/1           |           160 | Individual      | Jacobus Henricus van 't Hoff | 1852-08-30   | Rotterdam         | Netherlands      | Male  | Berlin University   | Berlin              | Germany                | 1911-03-01   | Berlin       | Germany         |
-|  1 |   1901 | Literature | The Nobel Prize in Literature 1901             | "in special recognition of his poetic composition, which gives evidence of lofty idealism, artistic perfection and a rare combination of the qualities of both heart and intellect"                                                                | 1/1           |           569 | Individual      | Sully Prudhomme              | 1839-03-16   | Paris             | France           | Male  | nan                 | nan                 | nan                    | 1907-09-07   | Châtenay     | France          |
-|  2 |   1901 | Medicine   | The Nobel Prize in Physiology or Medicine 1901 | "for his work on serum therapy, especially its application against diphtheria, by which he has opened a new road in the domain of medical science and thereby placed in the hands of the physician a victorious weapon against illness and deaths" | 1/1           |           293 | Individual      | Emil Adolf von Behring       | 1854-03-15   | Hansdorf (Lawice) | Prussia (Poland) | Male  | Marburg University  | Marburg             | Germany                | 1917-03-31   | Marburg      | Germany         |
-|  3 |   1901 | Peace      | The Nobel Peace Prize 1901                     | nan                                                                                                                                                                                                                                                | 1/2           |           462 | Individual      | Jean Henry Dunant            | 1828-05-08   | Geneva            | Switzerland      | Male  | nan                 | nan                 | nan                    | 1910-10-30   | Heiden       | Switzerland     |
-|  4 |   1901 | Peace      | The Nobel Peace Prize 1901                     | nan                                                                                                                                                                                                                                                | 1/2           |           463 | Individual      | Frédéric Passy               | 1822-05-20   | Paris             | France           | Male  | nan                 | nan                 | nan                    | 1912-06-12   | Paris        | France          
+######  📄 titanic = pd.read_csv('../mini-projet/Data/titanic.csv')
+|    |   PassengerId |   Survived |   Pclass | Name                                                | Sex    |   Age |   SibSp |   Parch | Ticket           |    Fare | Cabin   | Embarked   |
+|---:|--------------:|-----------:|---------:|:----------------------------------------------------|:-------|------:|--------:|--------:|:-----------------|--------:|:--------|:-----------|
+|  0 |             1 |          0 |        3 | Braund, Mr. Owen Harris                             | male   |    22 |       1 |       0 | A/5 21171        |  7.25   | nan     | S          |
+|  1 |             2 |          1 |        1 | Cumings, Mrs. John Bradley (Florence Briggs Thayer) | female |    38 |       1 |       0 | PC 17599         | 71.2833 | C85     | C          |
+|  2 |             3 |          1 |        3 | Heikkinen, Miss. Laina                              | female |    26 |       0 |       0 | STON/O2. 3101282 |  7.925  | nan     | S          |
+|  3 |             4 |          1 |        1 | Futrelle, Mrs. Jacques Heath (Lily May Peel)        | female |    35 |       1 |       0 | 113803           | 53.1    | C123    | S          |
+|  4 |             5 |          0 |        3 | Allen, Mr. William Henry                            | male   |    35 |       0 |       0 | 373450           |  8.05   | nan     | S          |          
 
 -------
 
-#### 📊 La domination des États-Unis, visualisée
-###### Pour voir quand les USA ont commencé à dominer les charts Nobel il faut une `plot`
-![img](./image/USA.png)
+#### Visualisation
+###### Il faut utiliser la bibliothèque libre populaire disponible en Python : `matplotlib`
+    ✔️import matplotlib.pyplot as plt
+#### 📊 La comparison de survie selon le sex
+   ![img](./image/chart1.png)
 
-------
-#### 📊 Quel est le sexe d'un lauréat typique du prix Nobel ?
-######  Ainsi, les États-Unis sont devenus le gagnant dominant du prix Nobel d’abord dans les années 1930 et avait gardé la position de leader depuis. Mais un groupe qui était en tête depuis le début, et qui ne semble jamais lâcher prise, ce sont les hommes. Cela ne devrait peut-être pas être un choc qu’il y ait un certain déséquilibre entre le nombre de lauréats masculins et féminins, mais quelle est l’importance de ce déséquilibre? Et est-il meilleur ou pire dans certaines catégories de prix comme la physique, la médecine, la littérature, etc.?
-###### ✅ Répartition de la proportion de femmes lauréates par décennie par catégorie de prix.
-![img](./image/chart_female.png)
-![img](./image/chart_female2.png)
-###### ✅ Répartition de la proportion de hommes lauréates par décennie par catégorie de prix.
-![img](./image/chart_male.png)
-![img](./image/chart_male2.png)
+#### 📊 La comparison de survie selon le sex et l'age
+ ![img](./image/chart2.png)
+#### 📊 La comparison de survie selon le port
+![img](./image/chart3.png)
+### Corrélation (point mathématique)
+    ✔️pip install Jinja2
+    ✔️Variante, avec "Seaborn": `pip install seaborn`
+🖋️import `seaborn` as `sns`
+🖋️`sns.heatmap`(titanic.corr(), fmt='0.2f', annot=True, square=True);
+![img](./image/chart4.png)
 
--------
-#### 📊 Lauréats du prix Nobel par âge
-###### Pour voir quel âge avaient les gagnants? Alor, il faut une `plot`
-![img](./image/Lauréats_prix_nobel.png)
 
--------
-#### 📊 Différences d'âge entre les catégories de prix
-#### Examinons les tendances de l’âge dans différentes catégories de prix.
-![img](./image/les_catégories_de_prix.png)
